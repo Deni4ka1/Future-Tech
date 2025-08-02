@@ -11,7 +11,15 @@
             @include laptop {
                 width: rem(40);
             }
+
+            @include mobile {
+                width: rem(30);
+            }
         }
+    }
+
+    @include mobile {
+        row-gap: rem(14);
     }
 
     &__link {
@@ -38,6 +46,10 @@
             --circleMarginLeft: #{rem(14)};
 
             row-gap: rem(2);
+        }
+
+        @include mobile {
+            --circleSize: #{rem(40)};
         }
     }
 
