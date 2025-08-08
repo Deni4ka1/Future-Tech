@@ -24,6 +24,10 @@
 @use './blocks/list';
 @use './blocks/tile';
 @use './blocks/card';
+@use './blocks/tabs';
+@use './blocks/person-card';
+@use './blocks/blog-actions';
+@use './blocks/blog-card';
 
 
 .header,
@@ -31,5 +35,7 @@ main>*:not(:last-child),
 .footer {
     display: none !important;
 }
+
+// @use '../helpers' as *;
 
 // npm run sass-watch
